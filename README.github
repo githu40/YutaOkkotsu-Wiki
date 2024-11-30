@@ -1,1 +1,332 @@
-
+<!DOCTYPE html>
+<html lang="en" style="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #2c2c2c;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .profile-container {
+            background-color: #3e3e3e;
+            border: 2px solid #ff69b4;
+            padding: 20px;
+            width: 600px;
+        }
+        .profile-header {
+            text-align: center;
+            background-color: #ff69b4;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        .profile-header h1 {
+            margin: 0;
+        }
+        .profile-image {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .profile-image img {
+            width: 100%;
+            height: auto;
+        }
+        .profile-details {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .profile-details div {
+            width: 48%;
+            margin-bottom: 10px;
+        }
+        .profile-details div span {
+            display: block;
+            font-weight: bold;
+        }
+        .profile-stats {
+            margin-top: 20px;
+        }
+        .profile-stats table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .profile-stats th, .profile-stats td {
+            border: 1px solid #ff69b4;
+            padding: 10px;
+            text-align: center;
+        }
+        .profile-characteristic {
+            background-color: #ff69b4;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <div class="profile-header">
+            <h1>Yuta Okkotsu</h1>
+        </div>
+        <div class="profile-image">
+            <img src="https://example.com/character-image.jpg" alt="Character Image">
+        </div>
+        <div class="profile-details">
+            <div>
+                <span>Rarity:</span> <img src"https://static.wikia.nocookie.net/jjk-phantom-parade/images/0/06/SSR.png/revision/latest?cb=20231123001923">
+            </div>
+            <div>
+                <span>Type:</span> <img src="" alt="Type Icon">
+            </div>
+            <div>
+                <span>Release Date:</span> 15-12-2023
+            </div>
+            <div>
+                <span>Role:</span> Attacker
+            </div>
+            <div>
+                <span>Focus:</span> Combined
+            </div>
+            <div>
+                <span>Affiliation:</span> Year 1 Tokyo Jujutsu High
+            </div>
+        </div>
+        <div class="profile-stats">
+            <table>
+                <tr>
+                    <th>HP</th>
+                    <th>Taijutsu (Physical Technique)</th>
+                    <th>Jujutsu (Cursed Technique)</th>
+                    <th>Initial Cursed Energy</th>
+                    <th>Max Cursed Energy</th>
+                    <th>Ultimate Skill Gauge</th>
+                </tr>
+                <tr>
+                    <td>750</td>
+                    <td>248</td>
+                    <td>270</td>
+                    <td>40</td>
+                    <td>150</td>
+                    <td>1558</td>
+                </tr>
+            </table>
+        </div>
+        <div class="profile-characteristic">
+            <span>Characteristic: Black Flash</span>
+        </div>
+    </div>
+</body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #2c2c2c;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+        }
+        .profile-container, .skills-container {
+            background-color: #3e3e3e;
+            border: 2px solid #ff69b4;
+            padding: 20px;
+            width: 600px;
+            margin-bottom: 20px;
+        }
+        .profile-header {
+            text-align: center;
+            background-color: #ff69b4;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        .profile-header h1 {
+            margin: 0;
+        }
+        .profile-image {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .profile-image img {
+            width: 100%;
+            height: auto;
+        }
+        .profile-details {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .profile-details div {
+            width: 48%;
+            margin-bottom: 10px;
+        }
+        .profile-details div span {
+            display: block;
+            font-weight: bold;
+        }
+        .profile-stats {
+            margin-top: 20px;
+        }
+        .profile-stats table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .profile-stats th, .profile-stats td {
+            border: 1px solid #ff69b4;
+            padding: 10px;
+            text-align: center;
+        }
+        .profile-characteristic {
+            background-color: #ff69b4;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        .skills-container h2 {
+            text-align: center;
+            background-color: #ff69b4;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        .skills-container table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .skills-container th, .skills-container td {
+            border: 1px solid #ff69b4;
+            padding: 10px;
+            text-align: center;
+        }
+        .skills-container .skill-name {
+            text-align: left;
+        }
+    </style>
+<body>
+    <div class="profile-container">
+        <div class="profile-header">
+            <h1>Character Name</h1>
+        </div>
+        <div class="profile-image">
+            <img src="https://example.com/character-image.jpg" alt="Character Image">
+        </div>
+        <div class="profile-details">
+            <div>
+                <span>Rarity:</span> SSR
+            </div>
+            <div>
+                <span>Type:</span> <img src="https://example.com/type-icon.png" alt="Type Icon">
+            </div>
+            <div>
+                <span>Release Date:</span> DD-MM-YYYY
+            </div>
+            <div>
+                <span>Role:</span> Attacker
+            </div>
+            <div>
+                <span>Focus:</span> Combined
+            </div>
+            <div>
+                <span>Affiliation:</span> Year 1 Tokyo Jujutsu High
+            </div>
+        </div>
+        <div class="profile-stats">
+            <table>
+                <tr>
+                    <th>HP</th>
+                    <th>Taijutsu (Physical Technique)</th>
+                    <th>Jujutsu (Cursed Technique)</th>
+                    <th>Initial Cursed Energy</th>
+                    <th>Max Cursed Energy</th>
+                    <th>Ultimate Skill Gauge</th>
+                </tr>
+                <tr>
+                    <td>750</td>
+                    <td>248</td>
+                    <td>270</td>
+                    <td>40</td>
+                    <td>150</td>
+                    <td>1558</td>
+                </tr>
+            </table>
+        </div>
+        <div class="profile-characteristic">
+            <span>Characteristic: Black Flash</span>
+        </div>
+    </div>
+    <div class="skills-container">
+        <h2>Character Skills and Abilities</h2>
+        <table>
+            <tr>
+                <th class="skill-name">Skill</th>
+                <th>Level 1</th>
+                <th>Level 2</th>
+                <th>Level 3</th>
+                <th>Level 4</th>
+                <th>Level 5</th>
+            </tr>
+            <tr>
+                <td class="skill-name">Focus Your Cursed Energy</td>
+                <td>120.00% [Magic] Damage to selected enemy</td>
+                <td>130.00% [Magic] Damage to selected enemy</td>
+                <td>140.00% [Magic] Damage to selected enemy</td>
+                <td>150.00% [Magic] Damage to selected enemy</td>
+                <td>160.00% [Magic] Damage to selected enemy</td>
+            </tr>
+            <tr>
+                <td class="skill-name">Cursed Speech</td>
+                <td>150.00% [Magic] Damage to all enemies, -20.00% DEF (3 Turns)</td>
+                <td>160.00% [Magic] Damage to all enemies, -25.00% DEF (3 Turns)</td>
+                <td>170.00% [Magic] Damage to all enemies, -30.00% DEF (3 Turns)</td>
+                <td>180.00% [Magic] Damage to all enemies, -35.00% DEF (3 Turns)</td>
+                <td>190.00% [Magic] Damage to all enemies, -40.00% DEF (3 Turns)</td>
+            </tr>
+            <tr>
+                <td class="skill-name">Let's Do This Together, Rika</td>
+                <td>100.00% [Magic] + 100.00% [Physical] Damage to selected enemy</td>
+                <td>110.00% [Magic] + 110.00% [Physical] Damage to selected enemy</td>
+                <td>120.00% [Magic] + 120.00% [Physical] Damage to selected enemy</td>
+                <td>130.00% [Magic] + 130.00% [Physical] Damage to selected enemy</td>
+                <td>140.00% [Magic] + 140.00% [Physical] Damage to selected enemy</td>
+            </tr>
+            <tr>
+                <td class="skill-name">Ultimate: It's Pure Love</td>
+                <td>100.00% [Magic] Damage to all enemies, +20.00% [Magic] Damage (3 Turns)</td>
+                <td>110.00% [Magic] Damage to all enemies, +25.00% [Magic] Damage (3 Turns)</td>
+                <td>120.00% [Magic] Damage to all enemies, +30.00% [Magic] Damage (3 Turns)</td>
+                <td>130.00% [Magic] Damage to all enemies, +35.00% [Magic] Damage (3 Turns)</td>
+                <td>140.00% [Magic] Damage to all enemies, +40.00% [Magic] Damage (3 Turns)</td>
+            </tr>
+            <tr>
+                <td class="skill-name">Combo Ultimate Effect</td>
+                <td colspan="5">+10.00% [Magic] Damage (3 Turns), 100.00% [Magic] Damage to all enemies</td>
+            </tr>
+        </table>
+        <h2>Auto Skills</h2>
+        <table>
+            <tr>
+                <th class="skill-name">Skill</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td class="skill-name">After the Vow He Did</td>
+                <td>If an ally's HP is 50% or above, increases own Energy by 10 or above.<br>
+                Decreases own damage received by 10.00%, Increases own [Magic] Damage by 10.00%</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

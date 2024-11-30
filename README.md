@@ -1,0 +1,2 @@
+# YutaOkkotsu-Wiki
+Yes
